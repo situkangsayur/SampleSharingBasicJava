@@ -1,0 +1,10 @@
+com/rumaysho/models/BangunRuang.class
+com/rumaysho/models/Segitiga.class
+com/rumaysho/models/Siswa.class
+com/rumaysho/models/Kotak.class
+com/rumaysho/services/SegitigaServiceImpl.class
+com/rumaysho/services/HitungBangunRuang.class
+com/rumaysho/repositories/SiswaRepository.class
+com/rumaysho/app/App.class
+com/rumaysho/services/KotakServiceImpl.class
+com/rumaysho/services/BangunRuangService.class

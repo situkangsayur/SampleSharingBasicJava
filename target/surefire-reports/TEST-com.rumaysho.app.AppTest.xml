@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rumaysho.app.AppTest" time="0.21" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/hendri/java_projects/sample-app/target/test-classes:/home/hendri/java_projects/sample-app/target/classes:/home/hendri/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/hendri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/hendri/.m2/repository/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar:/home/hendri/.m2/repository/org/springframework/data/spring-data-jpa/2.5.5/spring-data-jpa-2.5.5.jar:/home/hendri/.m2/repository/org/springframework/data/spring-data-commons/2.5.5/spring-data-commons-2.5.5.jar:/home/hendri/.m2/repository/org/springframework/spring-orm/5.3.10/spring-orm-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-jdbc/5.3.10/spring-jdbc-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-tx/5.3.10/spring-tx-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-core/5.3.10/spring-core-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.jar:/home/hendri/.m2/repository/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar:/home/hendri/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/hendri/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/jdk-11.0.12/lib"/>
+    <property name="sun.java.command" value="/home/hendri/java_projects/sample-app/target/surefire/surefirebooter16126895662766632675.jar /home/hendri/java_projects/sample-app/target/surefire 2021-10-17T13-41-49_377-jvmRun1 surefire2307349224395840868tmp surefire_02126438886968524148tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/hendri/java_projects/sample-app/target/test-classes:/home/hendri/java_projects/sample-app/target/classes:/home/hendri/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/hendri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/hendri/.m2/repository/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar:/home/hendri/.m2/repository/org/springframework/data/spring-data-jpa/2.5.5/spring-data-jpa-2.5.5.jar:/home/hendri/.m2/repository/org/springframework/data/spring-data-commons/2.5.5/spring-data-commons-2.5.5.jar:/home/hendri/.m2/repository/org/springframework/spring-orm/5.3.10/spring-orm-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-jdbc/5.3.10/spring-jdbc-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-tx/5.3.10/spring-tx-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-core/5.3.10/spring-core-5.3.10.jar:/home/hendri/.m2/repository/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.jar:/home/hendri/.m2/repository/org/aspectj/aspectjrt/1.9.7/aspectjrt-1.9.7.jar:/home/hendri/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/hendri/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/hendri"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/opt/jdk-11.0.12"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/hendri/java_projects/sample-app"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/hendri/java_projects/sample-app/target/surefire/surefirebooter16126895662766632675.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="hendri"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.11.0-37-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/home/hendri/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="/home/hendri/java_projects/sample-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.rumaysho.app.AppTest" time="0.014"/>
+</testsuite>
